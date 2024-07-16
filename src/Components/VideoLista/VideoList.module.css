@@ -1,0 +1,23 @@
+
+.video-image {
+  max-width: 100%; 
+  min-width: 100%;
+  height: 15px; 
+  width: 10px; 
+  
+}
+
+.videoList {
+  display:inline-flex;
+  flex-wrap:wrap; 
+  gap: 20px; 
+  justify-content: center; 
+  flex-direction: column;
+}
+
+
+@media (max-width: 768px) {
+  .videoList {
+    justify-content: space-around; 
+  }
+}

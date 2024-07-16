@@ -1,0 +1,60 @@
+{
+  "videos": [
+    {
+      "id": "34ab",
+      "title": "",
+      "category": "",
+      "imagem": "",
+      "video": "",
+      "description": ""
+    },
+    {
+      "id": "44fc",
+      "title": "",
+      "category": "",
+      "imagem": "",
+      "video": "",
+      "description": ""
+    },
+    {
+      "id": "f95a",
+      "title": "",
+      "category": "",
+      "imagem": "",
+      "video": "",
+      "description": ""
+    },
+    {
+      "id": "5965",
+      "title": "",
+      "category": "",
+      "imagem": "",
+      "video": "",
+      "description": ""
+    },
+    {
+      "id": "7f8a",
+      "title": "",
+      "category": "",
+      "imagem": "",
+      "video": "",
+      "description": ""
+    },
+    {
+      "id": "a5dc",
+      "title": "alura",
+      "category": "backend",
+      "imagem": "https://i.ytimg.com/vi/yI3AYA3L0xU/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=6HfnkwkZ0Ss",
+      "description": "curso"
+    },
+    {
+      "id": "af2f",
+      "title": "tecnologia",
+      "category": "frontend",
+      "imagem": "https://www.boxnet.com.br/wp-content/uploads/2021/08/40-Boxnet-O-futuro-da-analise-de-dados.jpg",
+      "video": "https://www.youtube.com/watch?v=6HfnkwkZ0Ss",
+      "description": "alura"
+    }
+  ]
+}

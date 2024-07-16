@@ -1,0 +1,113 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  width: 80%;
+  max-width: 600px;
+  max-height: 90vh;
+  background: #03122F;
+  border: 5px solid #6BD1FF;
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+label {
+  width: 100%;
+  color: #FFFFFF;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  position: relative;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #2271D1;
+  outline: none;
+  margin-top: 10px;
+  color: lightgray;
+  background: transparent;
+}
+
+textarea {
+  height: 80px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.submitButton {
+  background-color: rgba(0, 0, 0, 0.898);
+  color: #FFFFFF;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clearButton {
+  background-color: rgba(0, 0, 0, 0.898);
+  color: #FFFFFF;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .modal {
+    width: 90%;
+    max-height: 80vh;
+    padding: 10px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+  }
+
+  .buttonContainer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .submitButton,
+  .clearButton {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,52 @@
+.main-card {
+  margin: 30px;
+  gap: 20px;
+  flex-wrap: wrap; 
+  justify-content: center;
+ 
+}
+
+.topic {
+  width: 250px; 
+  max-width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.frontend, .backend, .gestao, .mobile {
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+  
+  .frontend {
+    background-color: #6BD1FF;
+  }
+  
+  .backend {
+    background-color: #00C86F;
+  }
+  
+  .gestao {
+    background-color: #FFBA05;
+  }
+  
+  .inovacao {
+    background-color: #E47900;
+  }
+  
+  .mobile {
+    background-color: #FFBA05;
+  }
+  
+
+
+  @media (max-width: 768px) {
+    .topic {
+        width: 100%; 
+        max-width: 300px; 
+    }
+}
+  

@@ -1,0 +1,69 @@
+
+/* NovoVideo.module.css */
+.novovideo {
+  padding: 20px;
+  background-color: #000;
+  border-radius: 8px;
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 15px 15px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: rgba(0, 0, 0, 0.898);
+  color: #FFFFFF;
+  background-color: none;
+  text-decoration: none;
+  border-radius: 7px;
+
+}
+
+button[type="button"] {
+  background-color: rgba(0, 0, 0, 0.898);
+  color: #FFFFFF;
+  background-color: none;
+  text-decoration: none;
+  border-radius: 7px;
+  
+}
+
+.image {
+  max-width: 100%; /* Ensures the image does not exceed the container's width */
+  height: auto; /* Maintains the aspect ratio */
+  display: block;
+  margin: 10px 0; /* Optional: Adds some space around the image */
+}
+
+.formButtons {
+  display: flex;
+  justify-content: space-between;
+}

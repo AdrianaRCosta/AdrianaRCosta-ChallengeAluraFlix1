@@ -1,0 +1,25 @@
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 30px; 
+    background-color: rgb(87, 82, 82); 
+}
+
+.logoContainer {
+    margin-right: auto; 
+}
+
+
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .logoContainer {
+        margin: 0; 
+        margin-bottom: 10px; 
+    }   
+}

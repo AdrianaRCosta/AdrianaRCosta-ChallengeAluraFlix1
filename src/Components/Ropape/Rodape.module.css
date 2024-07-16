@@ -1,0 +1,16 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding: 20px;
+    box-shadow: 0px 3px 5px #2271D1 inset;
+    text-align: center; 
+}
+
+@media (max-width: 768px) {
+    .rodape {
+        flex-direction: column;  
+        align-items: center; 
+        padding: 10px; 
+    }
+}
